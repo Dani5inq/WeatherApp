@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <title>🌦Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form>
+            <input type="text" placeholder="Enter City" id="city-input">
+            <input type="submit" value="Get Weather">
+        </form>
+        <div id="weather-data">
+             <div class="icon">
+                <img src="http://openweathermap.org/img/wn/01d.png" alt="Weather icon">
+             </div>
+             <div class="temperature">22°C</div>
+             <div class="description">Sunny</div>
+             <div class="details">
+                <div>Feels like: 23°C</div>
+                <div>Humidity 40°</div>
+                <div>Wind speed 5m/s</div>
+             </div>
+        </div>
+    </div>
+
+    <footer class="Footer">
+        <p>Danico</p>
+        <i class="ri-ancient-pavilion-fill"></i>
+    </footer>
+
+
+    <script src="weather.js"></script>
+</body>
+</html>
