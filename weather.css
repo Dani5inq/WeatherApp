@@ -91,6 +91,12 @@ input[type="submit"]:hover{
   font-size: 10px;
   text-align: center;
 }
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
 #hat {
   color: red;
 }
